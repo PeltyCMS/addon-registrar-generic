@@ -1,8 +1,8 @@
 # Generic HTTP registrar
 
-Register and renew domains with Generic HTTP registrar
+Register and renew domains with your registrar API
 
-Official **domain registrar** for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS) — identifier `registrar-generic`.
+Official domain registrar for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
 
 ## Why this addon
 
@@ -10,7 +10,7 @@ Resellers who sell domains next to hosting and need automated register / renew.
 
 ## Features
 
-- Availability checks against the official **Generic HTTP registrar** API
+- Availability checks against the official **your registrar API** API
 - Register, renew and transfer domains from Pelty orders
 - Nameserver and contact updates where the API allows
 - TLD costs sync into Pelty pricing
@@ -18,25 +18,21 @@ Resellers who sell domains next to hosting and need automated register / renew.
 
 ## How it works
 
-1. Install **Generic HTTP registrar** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-generic) (or Pelty Admin → Addons → Marketplace).
-2. Open Pelty Admin and enter your Generic HTTP registrar credentials in the addon settings.
-3. Attach it to the products / forms / login flows you care about.
-4. New orders and sign-ins use Generic HTTP registrar automatically.
+1. Install **Generic HTTP registrar** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-generic) inside Pelty Admin → Addons.
+2. Open Pelty Admin → Domains, connect your registrar API, sync TLDs, and sell domains like any other product.
+3. Customers hit checkout / login / order flow as usual — your registrar API runs in the background.
 
 ## Requirements
 
-- A running PeltyCMS panel with WASM addons enabled
-- Valid Generic HTTP registrar API / OAuth / panel credentials (depending on the integration)
-- Outbound HTTPS from the panel to Generic HTTP registrar
+- PeltyCMS with WASM addons enabled
+- Working your registrar API credentials
+- Outbound HTTPS from your panel
 
 ## Get it
 
-[Generic HTTP registrar on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-generic)
-
-Free official build. Source for this package lives in this repository.
+**[Generic HTTP registrar on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-generic)**
 
 ## Support
 
-- Marketplace product page: https://market.mythicalsystems.org/marketplace/product/registrar-generic
-- PeltyCMS core: https://github.com/MythicalLTD/PeltyCMS
-- Issues for this addon: use this repo’s Issues tab
+Bugs and questions for this addon → Issues on this repo.  
+PeltyCMS core → https://github.com/MythicalLTD/PeltyCMS
